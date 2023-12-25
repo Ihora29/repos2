@@ -1,0 +1,911 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(./img/Background.png);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.log-section {
+    display: flex;
+}
+
+.butt-sign {
+    width: 90px;
+    height: 36px;
+    border-radius: 40px;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    color: #FFF;
+
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-sign {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 19px;
+    text-decoration: none;
+}
+
+.sign {
+    right: 300px;
+    top: 50px;
+    position: absolute;
+}
+
+.logo {
+    width: 152px;
+    height: 24px;
+    margin: 46px 0 0 248px;
+}
+
+.main-head-text {
+    color: #FFF;
+    text-align: center;
+    margin-top: 153px;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.head-descr {
+    color: #F7F3F2;
+    margin-top: 28px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24.5px;
+}
+
+.head-find-link {
+    width: 225px;
+    height: 40px;
+    border-radius: 40px;
+    background: #FF4E50;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    padding-top: 12px;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 33px auto;
+    display: block;
+}
+
+.sect-div {
+    color: #444;
+    margin-top: 95px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sect-dream {
+    display: flex;
+    width: 940px;
+    margin: 35px auto;
+}
+
+.dream-pic {
+    margin: 0 20px;
+    width: 300px;
+    height: 400px;
+    background-image: url(./img/1.png);
+}
+
+.dream-pic2 {
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
+    background-image: url(./img/2.png);
+}
+
+.dream-desc1 {
+    color: #FFF;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 15px 0 0 25px;
+}
+
+.dream-desc2 {
+    color: #E3E3E3;
+    display: inline-block;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    margin: 10px 0 0 25px;
+}
+
+.step-link {
+    border-radius: 40px;
+    background: #FF4E50;
+    width: 70px;
+    height: 20px;
+    color: #FFF;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin: 219px 0 0 25px;
+}
+
+.dream-pic3 {
+    width: 300px;
+    height: 400px;
+    margin: 0 20px;
+    background-image: url(./img/3.png);
+}
+
+.users-sect {
+    margin: 95px auto;
+    width: 941px;
+
+}
+
+.name-activity {
+    width: 413px;
+    margin: 89px auto 34px;
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.last-main-text {
+    color: #444;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-item {
+    color: #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    margin: 43px auto;
+}
+
+.main-input {
+    border-radius: 3px;
+    border: 1px solid #D4D4D4;
+    background: #FFF;
+    width: 299px;
+    height: 40px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+}
+
+.find-butt {
+    border-radius: 40px;
+    background: #FF4E50;
+    width: 172px;
+    height: 40px;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.search-item {
+    margin: 25px auto;
+    width: 482px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #f5eeee;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-item2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-img1 {
+    width: 119px;
+    height: 20px;
+    margin: 38px 0 0 249px;
+}
+
+.foot-link {
+    color: #999;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.toot-text {
+    color: #444;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 11px;
+}
+
+.foot-img2 {
+    width: 110px;
+    height: 24px;
+    margin-top: 59px;
+    margin-right: 250px;
+}
+
+.main-pic1 {
+    background-image: url(./img/Object.png);
+    width: 300px;
+    height: 310px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pic2 {
+    background-image: url(./img/ds.png);
+    width: 300px;
+    height: 310px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pic3 {
+    background-image: url(./img/Bitmap\ \(1\).png);
+    width: 300px;
+    height: 310px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pic4 {
+    background-image: url(./img/Bitmap\ \(2\).png);
+    width: 300px;
+    height: 310px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pic5 {
+    background-image: url(./img/mnb.png);
+    width: 620px;
+    height: 310px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pic6 {
+    background-image: url(./img/oh.png);
+    width: 620px;
+    height: 310px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pic7 {
+    background-image: url(./img/Bitmap\ \(3\).png);
+    width: 300px;
+    height: 310px;
+    margin-left: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic-blok1,
+.pic-blok2,
+.pic-blok3 {
+    display: flex;
+
+    width: 940px;
+}
+
+.pic-blok1 {
+    margin: 35px auto 0;
+
+}
+
+.pic-blok2 {
+    margin: 20px auto;
+}
+
+.pic-blok3 {
+    margin: 20px auto;
+}
+
+.users-img {
+    background-image: url(./img/Meet\ partner.png);
+    width: 941px;
+    height: 361px;
+    margin: 95px auto;
+}
+
+.pic-text1 {
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+
+
+    top: 50%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+
+}
+
+.meet-item {
+    color: #444;
+    width: 491px;
+    height: 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 95px auto 0 auto;
+}
+
+.see-item {
+    border-radius: 40px;
+    border: 2px solid #FF4E50;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 2em;
+    background: #FFF;
+    margin: 34px auto;
+}
+
+.users-bloks1 {
+    display: flex;
+    margin-left: 265px;
+    margin-top: 34px;
+
+}
+
+.users-bloks2 {
+    display: flex;
+    margin-top: 34px;
+
+}
+
+.all-users {
+    display: flex;
+
+}
+
+
+
+.bradley {
+    background-image: url(./img/Person.png);
+    width: 221px;
+    height: 205px;
+}
+
+.marie {
+    background-image: url(./img/Person\ Copy.png);
+    width: 221px;
+    height: 205px;
+}
+
+.diana {
+    background-image: url(./img/Person\ Copy\ 2.png);
+    width: 221px;
+    height: 205px;
+}
+
+.chris {
+    background-image: url(./img/Person\ Copy\ 3.png);
+    width: 221px;
+    height: 205px;
+}
+
+.foot-item-links {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (max-width:768px) {
+    .header {
+        background-image: url(./768/Background.png);
+        width: 768px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin: 48px 0 0 46px;
+        width: 152px;
+        height: 24px;
+    }
+
+    .log-section {
+        width: 100%;
+    }
+
+    .sign {
+        position: absolute;
+        top: 40px;
+        right: 50px;
+    }
+
+    .dream-pic {
+        width: 236px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .dream-pic3 {
+        width: 236px;
+        height: 400px;
+        margin: 0;
+    }
+
+    .dream-pic2 {
+        width: 236px;
+        height: 400px;
+        margin: 0 20px;
+    }
+
+    .users-img {
+        background-image: url(./768/Meet\ partner.png);
+        width: 492px;
+        height: 605px;
+        margin: 0 auto;
+    }
+
+    .all-users {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .users-bloks1 {
+        margin: 34px auto;
+    }
+
+    .users-bloks2 {
+        margin: 34px auto;
+    }
+
+    .main-pic1,
+    .main-pic2,
+    .main-pic3,
+    .main-pic4,
+    .main-pic7 {
+        width: 236px;
+        height: 310px;
+    }
+
+    .main-pic5,
+    .main-pic6 {
+        width: 492px;
+        height: 310px;
+    }
+
+    .last-main-text {
+        color: #444;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 94px auto;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .foot-img1 {
+        width: 119px;
+        height: 20px;
+        margin: 38px 0 0 39px;
+    }
+
+    .foot-item2 {
+        margin: 40px 0 0 108px;
+    }
+
+    .toot-text {
+        margin: 0 0 11px 0;
+    }
+
+    #tex-toot {
+        margin: 40px 0 0 100px;
+    }
+
+    .foot-img2 {
+        margin: 59px 40px 0 0;
+    }
+
+}
+
+@media (max-width:320px) {
+    .header {
+        background-image: url(./320/Bitmap.png);
+        width: 320px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .log-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+
+    }
+
+    .logo {
+        margin: 208px 85px 0 85px;
+        position: absolute;
+    }
+
+    .sign {
+        margin: 0 auto;
+        position: absolute;
+        top: 20px;
+        left: 27%;
+    }
+
+    .main-head-text {
+        color: #FFF;
+        margin: 270px auto;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .head-descr {
+        position: absolute;
+        bottom: 305px;
+        left: 16px;
+        color: #F7F3F2;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24.5px;
+
+    }
+
+    .head-find-link {
+        position: absolute;
+        bottom: 200px;
+        left: 45px;
+    }
+
+    .sect-div {
+        color: #444;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 34px auto 0 auto;
+        width: 289px;
+        height: 27px;
+    }
+
+
+
+    .sect-dream {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dream-pic,
+    .dream-pic2,
+    .dream-pic3 {
+        width: 300px;
+        height: 240px;
+    }
+
+    .dream-pic {
+        background-image: url(./320/re.png);
+        margin: 0 auto;
+    }
+
+    .dream-pic2 {
+        background-image: url(./320/Bitmap\ \(1\).png);
+        margin: 0 auto;
+    }
+
+    .dream-pic3 {
+        background-image: url(./320/Bitmap\ \(2\).png);
+        margin: 0 auto;
+    }
+
+    .step-link {
+        margin: 64px 0 0 20px;
+    }
+
+    .meet-item {
+        color: #444;
+        width: 280px;
+        height: 54px;
+        margin: 36px auto 11px;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 auto;
+    }
+
+    .users-bloks1 {
+        flex-direction: column;
+    }
+
+    .users-bloks2 {
+        flex-direction: column;
+    }
+
+    .see-item {
+        width: 280px;
+        height: 40px;
+        margin: 36px auto 34px;
+    }
+
+    .name-activity {
+        color: #444;
+        width: 280px;
+        height: 54px;
+        margin: 35px auto 23px;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .pic-blok1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pic-blok2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .pic-blok3 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-pic1 {
+        width: 300px;
+        height: 120px;
+        margin: 10px auto;
+        background-image: url(./320/a.png);
+    }
+
+    .main-pic2 {
+        width: 300px;
+        height: 120px;
+        margin: 10px auto;
+        background-image: url(./320/b.png);
+    }
+
+    .main-pic3 {
+        width: 300px;
+        height: 120px;
+        margin: 10px auto;
+        background-image: url(./320/c.png);
+    }
+
+    .main-pic4 {
+        width: 300px;
+        height: 120px;
+        margin: 10px auto;
+        background-image: url(./320/d.png);
+    }
+
+    .main-pic5 {
+        width: 300px;
+        height: 120px;
+        margin: 10px auto;
+        background-image: url(./320/e.png);
+    }
+
+    .main-pic6 {
+        width: 300px;
+        height: 120px;
+        margin: 10px auto;
+        background-image: url(./320/f.png);
+    }
+
+    .main-pic7 {
+        width: 300px;
+        height: 120px;
+        margin: 10px auto;
+        background-image: url(./320/g.png);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-main-text {
+        width: 280px;
+        height: 54px;
+        margin: 35px auto 0;
+        color: #444;
+
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .text-item {
+        margin: 9px auto 15px;
+    }
+
+    .search-item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-input {
+        border-radius: 3px;
+        border: 1px solid #D4D4D4;
+        background: #FFF;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.07);
+        width: 280px;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .find-butt {
+        width: 280px;
+        height: 40px;
+        margin: 10px auto 0;
+    }
+
+    .footer {
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .foot-item2 {
+        display: flex;
+        flex-direction: column;
+        width: 280px;
+        height: 52px;
+        margin: 0 auto;
+    }
+
+    .foot-img1 {
+        margin: 0;
+    }
+
+    .foot-item1 {
+        margin: 21px auto 0;
+    }
+
+    .toot-text {
+        margin: 13px auto 0;
+    }
+
+    .foot-item-links {
+        flex-direction: row;
+        width: 280px;
+        position: relative;
+
+        margin: 0 auto;
+    }
+
+    .foot-link {
+        display: inline-block;
+        width: 280px;
+    }
+
+    #terms {}
+
+    .foot-item3 {
+        margin: 30px auto 0;
+    }
+
+    #tex-toot {
+        margin: 0;
+    }
+
+    .foot-item4 {
+        margin: 33px auto 23px;
+    }
+
+    .foot-img2 {
+        margin: 0;
+    }
+}
